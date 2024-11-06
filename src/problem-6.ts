@@ -6,8 +6,8 @@
     age: number;
     email: string;
   }
-  type Pertial = Partial<Profile>;
-  const updateProfile = (obj1: Profile, obj2: Pertial):Profile => {
+  type PartialType = Partial<Profile>;
+  const updateProfile = (obj1: Profile, obj2: PartialType):Profile => {
     const newObj = Object.assign({}, obj1, obj2)
     return newObj;
   };

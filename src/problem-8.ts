@@ -1,5 +1,6 @@
 {
   //
+  
   // Problem 8:
   const validateKeys = <T extends object>(
     obj: T,
@@ -13,9 +14,9 @@
     }
     return isValidate;
   };
-//   const person = { name: "Alice", age: 25, email: "alice@example.com" };
-//   const result = validateKeys(person, ['name']);
-//   console.log(result);
+  //   const person = { name: "Alice", age: 25, email: "alice@example.com" };
+  //   const result = validateKeys(person, ['name']);
+  //   console.log(result);
 
   //
 }
